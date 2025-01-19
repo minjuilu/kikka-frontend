@@ -11,6 +11,10 @@ export default {
         '18': '18px',
         '26': '26px',
         '82': '82px',
+        '1/6': '16.666667%',
+        '2/5': '40%',
+        '2/7': '28.571429%',
+        '32': '32%',
       },
       padding: {
         '37': '37px',
@@ -20,7 +24,20 @@ export default {
         '10': '10',
         '1': '1',
       },
+      writingMode: {
+        'vertical-rl': 'vertical-rl',
+      },
+      textOrientation: {
+        'upright': 'upright',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.writing-mode-vertical-rl': { 'writing-mode': 'vertical-rl' },
+        '.text-upright': { 'text-orientation': 'upright' },
+      });
+    },
+  ],
 }
