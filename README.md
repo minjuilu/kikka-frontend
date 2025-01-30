@@ -1,5 +1,5 @@
 # Kikka Hirado - 住宿網站前端專案
-此專案為 Kikka Hirado 酒店的官方網站前端實現，專注於用戶註冊、登入、密碼重置以及動態視覺效果的實現。網站的前端使用 Vue.js 框架，並整合了 Firebase 來管理用戶驗證，後端資料儲存於 Firebase 中。網站主頁提供了一個帶有圖片輪播的視覺體驗，並使用 Toastify 來展示各種提示消息。
+此專案為 Kikka Hirado 酒店的官方網站實現，專注於用戶註冊、登入、密碼重置以及動態視覺效果的實現。網站的前端使用 Vue.js 框架，並整合了 Firebase 來管理用戶驗證，後端資料儲存於 Firebase 中。網站主頁提供了一個帶有圖片輪播的視覺體驗，並使用 Toastify 來展示各種提示消息。
 
 ## 功能介紹
 - 用戶註冊與登入：實現了基於電子郵件和密碼的用戶註冊與登入功能。
@@ -38,8 +38,8 @@ npm run dev
 6. 在瀏覽器中打開 http://localhost:3000
 
 ## 相關資源
-Vue.js 官方網站
-Firebase 官方網站
-Swiper 官方網站
-Toastify 官方網站
+- Vue.js 官方網站
+- Firebase 官方網站
+- Swiper 官方網站
+- Toastify 官方網站
 
