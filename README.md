@@ -19,6 +19,7 @@
 ## 技術
 - 前端框架：Vue.js 3
 - 樣式框架：Tailwind CSS
+- 後端框架：Express.js
 - 資料庫與身份驗證：Firebase
 - 圖片輪播：Swiper
 - 彈窗提示：Toastify
